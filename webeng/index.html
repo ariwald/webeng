@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Studienplaner für Dozenten und Studierende">
+    <meta name="keywords" content="Planer, Campus Webapp">
+    <meta name="author" content="Arivaldo, Julia, Jonas G.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Inhalte/logos/DHBW-Icon.png" type="image/png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Studienplaner</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">
+                    <img src="Inhalte/logos/DHBW-Logo.png" alt="DHBW-Logo" class="dhbw-logo" />
+                </a></li>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown" id="professors-dropdown">
+                <a href="#" class="dropbtn">Dozenten</a>
+                <div class="dropdown-content">
+                    <input type="text" placeholder="Dozenten suchen..." id="search-bar">
+                    <ul id="professors-list">
+                        <li><a href="bimazubute.html">Bimazubute</a></li>
+                        <li><a href="stephan.html">Stephan</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="courses.html">Meine Kurse</a></li>
+            <li><a href="imprint.html">Impressum</a></li>
+        </ul>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="slideshow">
+            <div class="slide">
+                <img src="Inhalte/slideshow/slide1.jpg" alt="Slideshow Bild 1">
+            </div>
+            <div class="slide">
+                <img src="Inhalte/slideshow/slide2.jpg" alt="Slideshow Bild 2">
+            </div>
+            <div class="slide">
+                <img src="Inhalte/slideshow/slide3.jpg" alt="Slideshow Bild 3">
+            </div>
+            <div class="slide">
+                <img src="Inhalte/slideshow/slide4.jpg" alt="Slideshow Bild 4">
+            </div>
+        </div>
+
+        <!--<a id="prev-button">&#10094;</a>-->
+        <button id="next-button">&#10095;</button>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <a href="https://www.instagram.com/dhbwloerrach/" target="_blank">
+                <div class="icons instagram">
+                    <div class="tooltip">
+                        Instagram
+                    </div>
+                    <span> <i class="fab fa-instagram"></i></span>
+                </div>
+            </a>
+
+            <a href="https://www.facebook.com/dhbwloerrach" target="_blank">
+                <div class="icons facebook">
+                    <div class="tooltip">
+                        facebook
+                    </div>
+                    <span> <i class="fab fa-facebook"></i></span>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/company/25170879" target="_blank">
+                <div class="icons linkedin">
+                    <div class="tooltip">
+                        LinkedIn
+                    </div>
+                    <span> <i class="fab fa-linkedin"></i></span>
+                </div>
+            </a>
+
+            <a href="https://www.xing.com/companies/dhbwl%C3%B6rrach" target="_blank">
+                <div class="icons xing">
+                    <div class="tooltip">
+                        XING
+                    </div>
+                    <span> <i class="fab fa-xing"></i></span>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCbKIbvURymU9pmIsOrIBy8w" target="_blank">
+                <div class="icons youtube">
+                    <div class="tooltip">
+                        Youtube
+                    </div>
+                    <span> <i class="fab fa-youtube"></i></span>
+                </div>
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="scipt.js"></script>
+</body>
+
+</html>
